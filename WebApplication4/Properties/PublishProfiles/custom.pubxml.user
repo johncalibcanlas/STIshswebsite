@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://ftp.site4now.net/site1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>02/23/2018 02:34:16</publishTime>
+    </File>
+    <File Include="Accountancy.aspx">
+      <publishTime>02/22/2018 05:11:02</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>02/22/2018 04:56:22</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>02/22/2018 04:56:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/WebApplication4.dll">
+      <publishTime>02/23/2018 02:36:53</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>02/22/2018 16:10:16</publishTime>
+    </File>
+    <File Include="Content/Album.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-social.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/ButtonInImage.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="Content/HoverNavBar.css">
+      <publishTime>02/22/2018 04:59:32</publishTime>
+    </File>
+    <File Include="CulinaryArts.aspx">
+      <publishTime>02/22/2018 20:36:57</publishTime>
+    </File>
+    <File Include="Docs/MySqlCommand.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlCommandBuilder.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlConnections.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlConnectionStringBuilder.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlDataAdapter.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlDataReader.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlExeptions.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlHelper.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlParameter.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlParameterCollection.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="Docs/MySqlTransaction.xml">
+      <publishTime>02/22/2018 04:59:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/22/2018 05:00:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/22/2018 05:00:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/22/2018 05:00:13</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/22/2018 05:00:13</publishTime>
+    </File>
+    <File Include="Home Images/1.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/2.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/3.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/4.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/5.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/6.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/account.JPG">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/ACCOUNTANT9X12.jpg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/Culinary.jpg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/CulinaryArts.jpg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/ershelle.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/Ershelle1.jpg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/Food1.jpg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/Hummses.jpg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/HUMMSS.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/IT.jpg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/ITS.jpg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/Mariquiz.png">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/Rbob4.jpeg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/rbob5.jpeg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/Rbop.jpeg">
+      <publishTime>02/22/2018 05:00:38</publishTime>
+    </File>
+    <File Include="Home Images/rbop1.jpeg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/Rbop10.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/Rbop11.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/rbop2.jpeg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/rbop20.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/RBOP21.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/rbop3.jpeg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/rbop4.jpeg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/RBOPRBOPRBOP.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/SAP_retail.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/STIMarikina.png">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/STI_senior_high_school_marikina.png">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/tourism %282%29.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/Tourism.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/tourista.jpg">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="Home Images/VERYORIGIGNALLOGO.png">
+      <publishTime>02/22/2018 05:00:39</publishTime>
+    </File>
+    <File Include="HUMSS.aspx">
+      <publishTime>02/22/2018 05:11:02</publishTime>
+    </File>
+    <File Include="IndayogNgKultura.aspx">
+      <publishTime>02/22/2018 05:11:02</publishTime>
+    </File>
+    <File Include="IndayogNgKultura1.aspx">
+      <publishTime>02/22/2018 18:59:06</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>02/22/2018 19:04:43</publishTime>
+    </File>
+    <File Include="InformationTechnology.aspx">
+      <publishTime>02/22/2018 20:35:00</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/22/2018 04:56:22</publishTime>
+    </File>
+    <File Include="RBOP.aspx">
+      <publishTime>02/22/2018 05:38:33</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>02/22/2018 04:56:22</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>02/22/2018 04:56:22</publishTime>
+    </File>
+    <File Include="scripts/bootstrap.js">
+      <publishTime>02/22/2018 05:01:19</publishTime>
+    </File>
+    <File Include="scripts/bootstrap.min.js">
+      <publishTime>02/22/2018 05:01:19</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.min.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.min.map">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/jquery.js">
+      <publishTime>02/22/2018 05:01:19</publishTime>
+    </File>
+    <File Include="scripts/jquery.min.js">
+      <publishTime>02/22/2018 05:01:19</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.js">
+      <publishTime>02/22/2018 05:01:19</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.min.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/modernizr-2.6.2.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/popper.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/popper.min.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/respond.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="scripts/respond.min.js">
+      <publishTime>02/22/2018 05:01:20</publishTime>
+    </File>
+    <File Include="TourismOperation.aspx">
+      <publishTime>02/22/2018 20:38:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/23/2018 02:37:18</publishTime>
+    </File>
+    <File Include="work-coffee-1024x508.png">
+      <publishTime>02/22/2018 04:57:14</publishTime>
+    </File>
+    <File Include="WRCCTEAM.aspx">
+      <publishTime>02/23/2018 02:17:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
